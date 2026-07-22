@@ -11,7 +11,7 @@ export async function fetchAvailablePlaces() {
 }
 
 export async function updateUserPlaces(places) {
-  const response = await fetch("http://localhost:3000/user-placessssss", {
+  const response = await fetch("http://localhost:3000/user-placesssss", {
     method: "PUT",
     body: JSON.stringify({ places: places }),
     headers: { "Content-Type": "application/json" },
